@@ -17,7 +17,7 @@ const packageName = 'package.zip';
  *
  * @type {array} with {strings}
  */
-const excludeExtentions = ['.zip'];
+const excludeExtensions = ['.zip'];
 
 /**
  * Do you want to get notification spam? (its a joke)
@@ -59,7 +59,7 @@ export {
 	port,
 	debug,
 	welcome,
-	excludeExtentions,
+	excludeExtensions,
 	messages,
 	notifications,
 	packageName

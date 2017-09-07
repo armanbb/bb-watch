@@ -1,6 +1,6 @@
 # bb-watch
 
-bb-watch is an easy to use watcher for backbase widget, extentions, ui components or themes.
+bb-watch is an easy to use watcher for backbase widget, extensions, ui components or themes.
 
 ## Features!
 

@@ -1,7 +1,7 @@
 import watch from 'watch';
 import Verify from './Verify';
 import Notify from './Notify';
-import { filterExtentions } from './helpers';
+import { filterExtensions } from './helpers';
 import Package from './Package';
 import Import from './Import';
 
@@ -41,7 +41,7 @@ const start = () => {
  */
 const createWatcher = () => {
 	let options = {
-		filter: filterExtentions, 
+		filter: filterExtensions, 
 		interval: 1, // 1 second
 		wait: 2
 	};
